@@ -52,11 +52,7 @@ p { font-size:0.9rem; color:var(--text-mid); font-weight:300; line-height:1.8; }
 .quote { border-left:3px solid var(--peach); padding:0.8rem 1.2rem; margin-bottom:1.5rem; background:rgba(232,168,124,0.04); border-radius:0 6px 6px 0; }
 .quote p { font-style:italic; color:var(--peach-light); font-size:1rem; line-height:1.5; }
 .browser-frame { border-radius:8px; overflow:hidden; border:1px solid rgba(255,255,255,0.1); background:#111; }
-.browser-bar { height:28px; background:#1a1a1a; display:flex; align-items:center; padding:0 10px; gap:6px; }
-.browser-dot { width:8px; height:8px; border-radius:50%; background:#333; }
-.browser-dot.r { background:#ff5f56; }
-.browser-dot.y { background:#ffbd2e; }
-.browser-dot.g { background:#27c93f; }
+.browser-bar { display:none; }
 .browser-frame img { width:100%; display:block; }
 .scroll-arrow { position:absolute; bottom:2.5rem; left:50%; transform:translateX(-50%); text-align:center; z-index:10; animation:bounce 2s infinite; cursor:pointer; }
 .scroll-arrow span { display:block; font-family:'Montserrat',sans-serif; font-size:0.6rem; font-weight:600; color:rgba(255,255,255,0.4); letter-spacing:0.15em; text-transform:uppercase; margin-bottom:0.4rem; }
@@ -108,8 +104,6 @@ p { font-size:0.9rem; color:var(--text-mid); font-weight:300; line-height:1.8; }
   .card h4 { font-size:0.65rem; }
   .card p { font-size:0.7rem; line-height:1.5; }
   .browser-frame { border-radius:6px; }
-  .browser-bar { height:22px; padding:0 8px; }
-  .browser-dot { width:6px; height:6px; }
   .browser-frame img { max-height:250px; object-fit:cover; }
   .price-card { padding:1.2rem; }
   .price-tag { font-size:1.8rem; }
@@ -238,7 +232,7 @@ p { font-size:0.9rem; color:var(--text-mid); font-weight:300; line-height:1.8; }
       <div>
         <div class="browser-frame">
           <div class="browser-bar"><span class="browser-dot r"></span><span class="browser-dot y"></span><span class="browser-dot g"></span></div>
-          <img src="assets/website-actual-homepage.jpg" alt="allureaesthetic.com.au current homepage">
+          <img src="assets/website-mockup-screenshot.jpg" alt="Concept mockup for Allure Aesthetic">
         </div>
       </div>
     </div>
